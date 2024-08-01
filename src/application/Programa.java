@@ -1,9 +1,12 @@
 package application;
 
+import plataformajogo.Posicao;
+
 public class Programa {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	Posicao posicao = new Posicao (1,4);
+	System.out.println(posicao);
 
 	}
 
